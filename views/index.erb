@@ -1,0 +1,13 @@
+<h1> Hola </h1>
+
+<%  $i = 0 %>
+<%  $num = 51 %>
+<%  while $i < $num  do %>
+  <%  if ($i % 2)==0 %>
+    <h2><%= "#{$i} el numero es par"%></h2>
+    <%  $i = $i + 1 %>
+  <% else %>
+    <h2><%= "#{$i} el numero es impar"%></h2>
+    <%  $i = $i + 1 %>
+  <% end %>
+<% end %>
